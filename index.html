@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./assets/styles.css" />
+    <script src="./assets/script.js" defer></script>
+    <title>Verificação de senha</title>
+  </head>
+  <body>
+    <main class="wrapper">
+      <div class="pass-field">
+        <input type="password" placeholder="Insira a Senha" />
+        <i class="fa-solid fa-eye"></i>
+      </div>
+      <div class="content">
+        <p>A senha deve conter</p>
+        <ul class="requirement-list">
+          <li>
+            <i class="fa-solid fa-circle"></i>
+            <span>No mínimo 8 caracteres</span>
+          </li>
+
+          <li>
+            <i class="fa-solid fa-circle"></i>
+            <span>Pelo menos 1 número (0...9)</span>
+          </li>
+
+          <li>
+            <i class="fa-solid fa-circle"></i>
+            <span>Pelo menos 1 letra minúscula (a...z)</span>
+          </li>
+
+          <li>
+            <i class="fa-solid fa-circle"></i>
+            <span>Pelo menos 1 simbolo especial (0...9)</span>
+          </li>
+
+          <li>
+            <i class="fa-solid fa-circle"></i>
+            <span>Pelo menos 1 letra maiúscula (A...Z)</span>
+          </li>
+        </ul>
+      </div>
+    </main>
+  </body>
+</html>
