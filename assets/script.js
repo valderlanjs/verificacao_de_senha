@@ -10,7 +10,7 @@ const requirements = [
   { regex: /[0-9]/, index: 1 }, // Ao menos um número
   { regex: /[a-z]/, index: 2 }, // ao menos uma letra minúscula
   { regex: /[^A-Za-z0-9]/, index: 3 }, // Ao menos um simbolo especial
-  { regex: /[A-Z]/, index: 5 }, // ao menos uma letra maiúscula
+  { regex: /[A-Z]/, index: 4 }, // ao menos uma letra maiúscula
 ];
 
 passwordInput.addEventListener("keyup", (e) => {
