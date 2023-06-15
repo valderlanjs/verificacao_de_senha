@@ -1,6 +1,6 @@
 const passwordInput = document.querySelector(".pass-field input");
 const eyeIcon = document.querySelector(".pass-field i");
-const requirementList = document.querySelector(".requirement-list li");
+const requirementList = document.querySelectorAll(".requirement-list li");
 
 //uma matriz de senha exigida com correspondente
 //expressão regular e índice do item da lista de requisitos
